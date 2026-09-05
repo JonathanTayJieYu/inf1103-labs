@@ -9,7 +9,7 @@ follower = 100
 print('Username :',username)
 print('Bio :',bio)
 print('Followers :',follower)
-
+var = 1
 
 # follower = 100
 
