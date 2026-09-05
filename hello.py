@@ -1,7 +1,7 @@
-# print("============")
-# print("Welcome here")
-# print("My First Post!")
-# print("=============")
+print("============")
+print("Welcome here")
+print("My First Post!")
+print("=============")
 
 # username = "cool_creator"
 # bio = "Fun Blogger"
@@ -22,17 +22,17 @@
 # follower -= 30
 # print('Day 3:',follower)
 
-username = input('Enter Username :')
-age = int(input('Enter age :'))
-category = input('Enter Content Category :')
+# username = input('Enter Username :')
+# age = int(input('Enter age :'))
+# category = input('Enter Content Category :')
 
-print("\nInstagram Profile")
-print('===================')
-print('Username :', username)
-print('Age :',age)
-print('Category :',category)
+# print("\nInstagram Profile")
+# print('===================')
+# print('Username :', username)
+# print('Age :',age)
+# print('Category :',category)
 
-if age > 40 and category == "fun":
-    print("You are old what is fun for you??")
+# if age > 40 and category == "fun":
+#     print("You are old what is fun for you??")
     
     
