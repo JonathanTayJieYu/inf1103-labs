@@ -11,13 +11,23 @@
 # print('Followers :',follower)
 
 
-follower = 100
+# follower = 100
 
-follower += 50
-print('Day 1:', follower)
+# follower += 50
+# print('Day 1:', follower)
 
-follower += 20
-print('Day 2:',follower)
+# follower += 20
+# print('Day 2:',follower)
 
-follower -= 30
-print('Day 3:',follower)
+# follower -= 30
+# print('Day 3:',follower)
+
+username = input('Enter Username :')
+age = input('Enter age :')
+category = input('Enter Content Category :')
+
+print("\nInstagram Profile")
+print('===================')
+print('Username :', username)
+print('Age : ',age)
+print('Category :',category)
