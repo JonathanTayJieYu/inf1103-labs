@@ -8,7 +8,7 @@ while True:
     if Stock_value.isdigit():
         inventory+=1
         total_unit_processed += 1
-        if total_unit_processed >= 5:
+        if total_unit_processed >= 500:
                     print("Alert Total unit process more than 500")
                     print('Total Unit Processed', total_unit_processed)
                     break
