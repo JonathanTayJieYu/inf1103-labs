@@ -21,14 +21,13 @@ def process_delivery(current_total, new_value):
      return total
 
 def generate_report(total_units, failed_attempts):
-     print(total_units,failed_attempts)
-     print('Total Unit Processed', total_unit_processed,"\n", 
+     print('Total Unit Processed', total_units,"\n", 
                        "Number of Failed/Rejected Entries :", failed_attempts)
 
 while True:
     Stock_value = get_valid_input()
     if Stock_value == None:
-            print(generate_report(total_unit_processed,failed_entries))
+            generate_report(total_unit_processed,failed_entries)
             break
     elif Stock_value.isdigit():
         inventory+=1
