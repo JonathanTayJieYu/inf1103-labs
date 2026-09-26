@@ -4,7 +4,14 @@ total_unit_processed = 0
 delivery_processed = 0
 delivery_amount= 0
 counter = 1
-transaction_history=[]
+transaction_history =[]
+
+def save_inventory(inventory,transaction_history):
+    with open('inventory.txt', 'w') as file:
+    # Save inventory items with an 'INV:' prefix
+        file.write("INV:"+str(inventory)+"\n")
+    # Save transaction history with a 'TRX:' prefix
+        file.write("TRX:"+str(transaction_history))
 
 def get_valid_input():
     user_input= input('enter a stock quantity: ')
@@ -28,12 +35,12 @@ def generate_report(total_units, failed_attempts):
 while True:
     Stock_value = get_valid_input()
     if Stock_value == None:
+            save_inventory(inventory,transaction_history)
             generate_report(total_unit_processed,failed_entries)
             break
     elif Stock_value.isdigit():
         inventory+=1
         transaction_history.append(Stock_value)
-        print(transaction_history)
         total_amount=process_delivery(delivery_processed,counter)
         delivery_processed=total_amount
         delivery_amount=calculate_tax(delivery_processed)
