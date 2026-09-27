@@ -22,7 +22,6 @@ def load_inventory():
                 cleaned_string = transaction_value.strip("[]'\" ")
                 if cleaned_string != "":
                     for item in cleaned_string.split(","):
-                        print(item)
                         cleaned_item = item.strip("'\" ")
                         if cleaned_item != '':
                             trans_history.append(cleaned_item)
