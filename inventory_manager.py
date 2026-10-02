@@ -107,7 +107,7 @@ def menu_Page():
     print('4.Search Product')
     print('5.Save Inventory')
     print('6.Quit')
-    print('-----------------------------\n')
+    print('------------------------------\n')
     userinput=input('Enter Option:')
     return userinput
 
