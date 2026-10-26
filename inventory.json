@@ -16,5 +16,11 @@
         "name": "2",
         "price": 3.0,
         "stock": 4
+    },
+    {
+        "product_id": "23",
+        "name": "Basketball",
+        "price": 100.0,
+        "stock": 1000000
     }
 ]
