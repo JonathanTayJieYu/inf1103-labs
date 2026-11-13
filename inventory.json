@@ -4,6 +4,11 @@
         "name": "2",
         "price": 3.0,
         "stock": 4,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "physical",
         "weight": 60.0
     },
@@ -12,6 +17,11 @@
         "name": "3",
         "price": 4.0,
         "stock": 5,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "physical",
         "weight": 39.0
     },
@@ -20,6 +30,11 @@
         "name": "2",
         "price": 3.0,
         "stock": 4,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "physical",
         "weight": 40.0
     },
@@ -28,6 +43,11 @@
         "name": "Basketball",
         "price": 100.0,
         "stock": 1000000,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "physical",
         "weight": 50.0
     },
@@ -36,22 +56,24 @@
         "name": "basketball",
         "price": 10.0,
         "stock": 10000,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "physical",
         "weight": 20.0
-    },
-    {
-        "product_id": "1000",
-        "name": "Ball",
-        "price": 29.0,
-        "stock": 550,
-        "type": "physical",
-        "weight": 50.0
     },
     {
         "product_id": "1039",
         "name": "baseball",
         "price": 10.0,
-        "stock": 10,
+        "stock": 20,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
         "type": "digital",
         "download_size": 100.0
     }
