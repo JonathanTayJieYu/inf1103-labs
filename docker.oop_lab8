@@ -1,0 +1,5 @@
+FROM python:3.11-slim
+WORKDIR /app
+COPY oop_lab8.py .
+COPY inventory.json .
+CMD ["python", "oop_lab8.py"]
