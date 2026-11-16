@@ -26,19 +26,6 @@
         "weight": 39.0
     },
     {
-        "product_id": "1",
-        "name": "2",
-        "price": 3.0,
-        "stock": 4,
-        "supplier": {
-            "supplier_id": "UNKNOWN",
-            "name": "Unknown Supplier",
-            "contact_email": "not provided"
-        },
-        "type": "physical",
-        "weight": 40.0
-    },
-    {
         "product_id": "23",
         "name": "Basketball",
         "price": 100.0,
@@ -76,5 +63,44 @@
         },
         "type": "digital",
         "download_size": 100.0
+    },
+    {
+        "product_id": "P001",
+        "name": "Desk Lamp",
+        "price": 25.0,
+        "stock": 10,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
+        "type": "physical",
+        "weight": 0.0
+    },
+    {
+        "product_id": "D001",
+        "name": "Photo Editor",
+        "price": 49.9,
+        "stock": 100,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
+        "type": "digital",
+        "download_size": 0.0
+    },
+    {
+        "product_id": "P003",
+        "name": "Monitor Stand",
+        "price": 39.5,
+        "stock": 7,
+        "supplier": {
+            "supplier_id": "UNKNOWN",
+            "name": "Unknown Supplier",
+            "contact_email": "not provided"
+        },
+        "type": "physical",
+        "weight": 0.0
     }
 ]
